@@ -17,9 +17,13 @@ jobs:
   macos-job:
     runs-on: macos-latest
     steps:
-      - name: mac os
+      - name: get os details
         shell: bash
         run: sw_vers
+
+      - name: update brew
+        shell: bash
+        run: brew update
   linux-job:
     runs-on: ubuntu-latest
     steps:
