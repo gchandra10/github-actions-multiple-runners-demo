@@ -21,6 +21,10 @@ jobs:
         shell: bash
         run: sw_vers
 
+      - name: update brew
+        shell: bash
+        run: brew update
+
   linux-job:
     runs-on: ubuntu-latest
     steps:
