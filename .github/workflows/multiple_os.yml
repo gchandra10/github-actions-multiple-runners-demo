@@ -1,4 +1,4 @@
-name: multiple os & multiple events demo
+name: multiple os & multiple events demos
 on:
     push:
       branches: [main]
