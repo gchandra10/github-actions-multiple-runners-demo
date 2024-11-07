@@ -13,7 +13,7 @@ jobs:
     steps:
       - name: using windows & powershell
         shell: pwsh
-        run: Get-Location
+        run: dir
   macos-job:
     runs-on: macos-latest
     steps:
