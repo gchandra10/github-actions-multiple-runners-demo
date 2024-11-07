@@ -13,7 +13,7 @@ jobs:
     steps:
       - name: using windows & powershell
         shell: pwsh
-        run: dir
+        run: dir /p
   macos-job:
     runs-on: macos-latest
     steps:
